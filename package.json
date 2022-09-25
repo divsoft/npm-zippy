@@ -9,7 +9,10 @@
   "dependencies": {
     "adm-zip": "^0.5.9",
     "sanitize-filename": "1.6.3",
-    "yargs": "13.3.0"
+    "yargs": "^17.5.1"
+  },
+  "bin": {
+    "npm-zippy": "bin/npm-zippy.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/divsoft/npm-zippy/issues"
   },
-  "homepage": "https://github.com/divsoft/npm-zippy#readme"
+  "engines": {
+    "node": ">=6.0"
+  },
+  "homepage": "https://github.com/divsoft/npm-zippy#readme",
+  "devDependencies": {},
+  "keywords": [
+    "zip package lambda aws azure function"
+  ]
 }
